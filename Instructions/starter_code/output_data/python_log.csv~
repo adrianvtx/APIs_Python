@@ -1,0 +1,148 @@
+# IPython log file
+
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())
+ls=[citNam, code,  lat, temp, humi, clouds, wind ]
+for l in ls:
+    print(len(l))
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())
+dictionary = {}
+dictionary={
+    "City" : citNam, 
+    "ID Code" : code, 
+    "Latitude" : lat, 
+    "Temperature" : temp,
+    "Humidity" : humi,
+    "Cloudiness" : clouds,
+    "Wind" : wind
+}
+weather_data=pd.DataFrame(dictionary)
+export_csv=weather_data.to_csv("output_data/weather_data_df.csv", index=False, header=True)
+weather_data.head()
+#[Out]#             City  ID Code  Latitude  Temperature  Humidity  Cloudiness   Wind
+#[Out]# 0        Mataura  6201424    -46.19        37.99        99           0   1.01
+#[Out]# 1  Srednekolymsk  2121025     67.46        46.38        61         100  14.54
+#[Out]# 2         Albany  5106834     42.65        79.00        47          75   4.70
+#[Out]# 3          Ancud  3899695    -41.87        50.00        61          40   5.82
+#[Out]# 4         Gawler  2071059    -34.60        52.00        93          75   5.82
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())
+latitude=weather_data['Latitude']
+temperature=weather_data['Temperature']
+humidity= weather_data['Humidity']
+cloudiness= weather_data['Cloudiness']
+wind_speed= weather_data['Wind']
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())
+fig = plt.figure()
+fig1=plt.scatter(latitude, temperature, marker='.', facecolors="blue", edgecolors="blue")
+# Set the upper and lower limits of our y axis
+plt.ylim(0,120)
+# Set the upper and lower limits of our x axis
+plt.xlim(-80,100)
+# Create a title, x label, and y label for our chart
+plt.title("Max Temperature v Latitude")
+
+plt.xlabel("Latitude")
+plt.ylabel("Temperature (Degrees F)")
+
+# Save an image of the chart and print to screen
+# NOTE: If your plot shrinks after saving an image,
+# update matplotlib to 2.2 or higher,
+# or simply run the above cells again.
+plt.savefig("output_data/temp_v_Latitude.png")
+plt.show()
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())
+fig = plt.figure()
+fig1=plt.scatter(latitude, humidity, marker=".", facecolors="blue", edgecolors="blue")
+# Set the upper and lower limits of our y axis
+plt.ylim(0,105)
+# Set the upper and lower limits of our x axis
+plt.xlim(-80,100)
+# Create a title, x label, and y label for our chart
+plt.title("Humidity v Latitude")
+plt.xlabel("Latitude")
+plt.ylabel("Humidity (%)")
+
+# Save an image of the chart and print to screen
+# NOTE: If your plot shrinks after saving an image,
+# update matplotlib to 2.2 or higher,
+# or simply run the above cells again.
+plt.savefig("output_data/humidity_v_Latitude.png")
+plt.show()
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())
+fig = plt.figure()
+fig1=plt.scatter(latitude, cloudiness, marker=".", facecolors="blue", edgecolors="blue")
+# Set the upper and lower limits of our y axis
+plt.ylim(-5,105)
+# Set the upper and lower limits of our x axis
+plt.xlim(-80,100)
+# Create a title, x label, and y label for our chart
+plt.title("Cloudiness v Latitude")
+plt.xlabel("Latitude")
+plt.ylabel("Cloudiness (%)")
+
+# Save an image of the chart and print to screen
+# NOTE: If your plot shrinks after saving an image,
+# update matplotlib to 2.2 or higher,
+# or simply run the above cells again.
+plt.savefig("output_data/cloudiness_v_Latitude.png")
+plt.show()
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())
+fig = plt.figure()
+fig1=plt.scatter(latitude, wind_speed, marker=".", facecolors="blue", edgecolors="blue")
+# Set the upper and lower limits of our y axis
+plt.ylim(0,40)
+# Set the upper and lower limits of our x axis
+plt.xlim(-80,100)
+# Create a title, x label, and y label for our chart
+plt.title("Wind Speed v Latitude")
+plt.xlabel("Latitude")
+plt.ylabel("Wind Speed (mph)")
+
+# Save an image of the chart and print to screen
+# NOTE: If your plot shrinks after saving an image,
+# update matplotlib to 2.2 or higher,
+# or simply run the above cells again.
+plt.savefig("output_data/wind_speed_v_Latitude.png")
+plt.show()
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())
+WeatherPy_Homework – Observable Trends
+
+The following trends are observable in the output scatter plots. These warrant further investigation as there are several possible sources of error that require exclusion/inclusion. While the latitudes and longitudes were generated at random, the subsequent use of CitiPy to generate city names introduces possible selection bias into the city list sample. Also at issue here is the population concentration in the northers and eastern hemispherres.
+Methodologically, the city list queried openweather API for current conditions, dropping those city names that produced a response error; another source of uncertainty depending on the cause of the error. 
+The data was plotted individually versus latitude, rather than attempting to include cloudcover, wind and humidity in a single analysis. Other available temperature-effecting data, such as elevation, aspect (direction-facing), and distance from water werer omitted entirely.  
+Observations:
+1)	Temperature v. Latitude scatter plot shows a clear ‘inverted U’ distribution of temperatures, however the axis of symmetry is closer to 30 degrees latitude, rather than 0 degrees as predicted by the ‘hottest at the equator’ theory. 
+
+2)	Humidity v Latitude scatter plot showed the highest values at the equator
+
+3)	Wind Speed v Latitude showed nothing remarkable
+
+4)	Cloudiness v Latitude showed an aggregation of values across all latitudes at 20%, 40%, 75%, and 100%. This may be due to weather prediction shorthand, or possibly have something to do with prevailing winds.
+
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())
+print(var_dic_list())

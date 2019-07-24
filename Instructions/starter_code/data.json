@@ -1,0 +1,1021 @@
+{
+    "coord": {
+        "lon": -69.36,
+        "lat": 77.48
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 43.18,
+        "pressure": 1010.24,
+        "humidity": 62,
+        "temp_min": 43.18,
+        "temp_max": 43.18,
+        "sea_level": 1010.24,
+        "grnd_level": 972.36
+    },
+    "wind": {
+        "speed": 5.59,
+        "deg": 126.007
+    },
+    "clouds": {
+        "all": 60
+    },
+    "dt": 1563904732,
+    "sys": {
+        "message": 0.0082,
+        "country": "GL",
+        "sunrise": 0,
+        "sunset": 0
+    },
+    "timezone": -10800,
+    "id": 3831208,
+    "name": "Qaanaaq",
+    "cod": 200
+}{
+    "coord": {
+        "lon": 19.24,
+        "lat": -34.42
+    },
+    "weather": [
+        {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 50.31,
+        "pressure": 999,
+        "humidity": 87,
+        "temp_min": 48.99,
+        "temp_max": 52
+    },
+    "wind": {
+        "speed": 11.99,
+        "deg": 318,
+        "gust": 11.18
+    },
+    "rain": {
+        "3h": 2.875
+    },
+    "clouds": {
+        "all": 83
+    },
+    "dt": 1563904732,
+    "sys": {
+        "type": 3,
+        "id": 2006131,
+        "message": 0.008,
+        "country": "ZA",
+        "sunrise": 1563860588,
+        "sunset": 1563897332
+    },
+    "timezone": 7200,
+    "id": 3366880,
+    "name": "Hermanus",
+    "cod": 200
+}{
+    "coord": {
+        "lon": -68.31,
+        "lat": -54.81
+    },
+    "weather": [
+        {
+            "id": 521,
+            "main": "Rain",
+            "description": "shower rain",
+            "icon": "09d"
+        },
+        {
+            "id": 620,
+            "main": "Snow",
+            "description": "light shower snow",
+            "icon": "13d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 33.8,
+        "pressure": 1011,
+        "humidity": 74,
+        "temp_min": 33.8,
+        "temp_max": 33.8
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 23.04,
+        "deg": 230
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1563904572,
+    "sys": {
+        "type": 1,
+        "id": 8303,
+        "message": 0.0084,
+        "country": "AR",
+        "sunrise": 1563885445,
+        "sunset": 1563914500
+    },
+    "timezone": -10800,
+    "id": 3833367,
+    "name": "Ushuaia",
+    "cod": 200
+}{
+    "coord": {
+        "lon": 168.86,
+        "lat": -46.19
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 36,
+        "pressure": 1017,
+        "humidity": 98,
+        "temp_min": 36,
+        "temp_max": 36
+    },
+    "wind": {
+        "speed": 4.65,
+        "deg": 35.954
+    },
+    "clouds": {
+        "all": 4
+    },
+    "dt": 1563904732,
+    "sys": {
+        "type": 3,
+        "id": 2008959,
+        "message": 0.009,
+        "country": "NZ",
+        "sunrise": 1563912881,
+        "sunset": 1563946024
+    },
+    "timezone": 43200,
+    "id": 6201424,
+    "name": "Mataura",
+    "cod": 200
+}{
+    "coord": {
+        "lon": -1.13,
+        "lat": 38.18
+    },
+    "weather": [
+        {
+            "id": 721,
+            "main": "Haze",
+            "description": "haze",
+            "icon": "50d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 87.62,
+        "pressure": 1015,
+        "humidity": 48,
+        "temp_min": 82,
+        "temp_max": 91.99
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 12.75,
+        "deg": 70
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1563904732,
+    "sys": {
+        "type": 1,
+        "id": 6391,
+        "message": 0.0066,
+        "country": "ES",
+        "sunrise": 1563857946,
+        "sunset": 1563909752
+    },
+    "timezone": 7200,
+    "id": 2517679,
+    "name": "Fortuna",
+    "cod": 200
+}{
+    "coord": {
+        "lon": -73.48,
+        "lat": 45.36
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 78.48,
+        "pressure": 1011,
+        "humidity": 42,
+        "temp_min": 75,
+        "temp_max": 81
+    },
+    "visibility": 16093,
+    "wind": {
+        "speed": 4.7,
+        "deg": 220
+    },
+    "clouds": {
+        "all": 40
+    },
+    "dt": 1563904733,
+    "sys": {
+        "type": 1,
+        "id": 4146,
+        "message": 0.0068,
+        "country": "CA",
+        "sunrise": 1563874070,
+        "sunset": 1563928357
+    },
+    "timezone": -14400,
+    "id": 6138908,
+    "name": "Saint-Philippe",
+    "cod": 200
+}{
+    "coord": {
+        "lon": -70.23,
+        "lat": 8.64
+    },
+    "weather": [
+        {
+            "id": 501,
+            "main": "Rain",
+            "description": "moderate rain",
+            "icon": "10d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 80.8,
+        "pressure": 1013.24,
+        "humidity": 83,
+        "temp_min": 80.8,
+        "temp_max": 80.8,
+        "sea_level": 1013.24,
+        "grnd_level": 986.69
+    },
+    "wind": {
+        "speed": 5.73,
+        "deg": 55.651
+    },
+    "rain": {
+        "3h": 3.937
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1563904733,
+    "sys": {
+        "message": 0.008,
+        "country": "VE",
+        "sunrise": 1563877854,
+        "sunset": 1563923013
+    },
+    "timezone": -14400,
+    "id": 3648546,
+    "name": "Barinas",
+    "cod": 200
+}{
+    "coord": {
+        "lon": -58.16,
+        "lat": 6.8
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 86,
+        "pressure": 1013,
+        "humidity": 74,
+        "temp_min": 86,
+        "temp_max": 86
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 6.93,
+        "deg": 40
+    },
+    "clouds": {
+        "all": 40
+    },
+    "dt": 1563904622,
+    "sys": {
+        "type": 1,
+        "id": 8776,
+        "message": 0.007,
+        "country": "GY",
+        "sunrise": 1563875122,
+        "sunset": 1563919951
+    },
+    "timezone": -14400,
+    "id": 3378644,
+    "name": "Georgetown",
+    "cod": 200
+}{
+    "coord": {
+        "lon": 134.5,
+        "lat": 33.93
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 76.44,
+        "pressure": 1006,
+        "humidity": 94,
+        "temp_min": 75.99,
+        "temp_max": 77
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 4.7,
+        "deg": 290
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1563904733,
+    "sys": {
+        "type": 1,
+        "id": 8027,
+        "message": 0.0072,
+        "country": "JP",
+        "sunrise": 1563912433,
+        "sunset": 1563962966
+    },
+    "timezone": 32400,
+    "id": 1865309,
+    "name": "Katsuura",
+    "cod": 200
+}{
+    "coord": {
+        "lon": 70.83,
+        "lat": 66.83
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 51.46,
+        "pressure": 1016.03,
+        "humidity": 69,
+        "temp_min": 51.46,
+        "temp_max": 51.46,
+        "sea_level": 1016.03,
+        "grnd_level": 1012.63
+    },
+    "wind": {
+        "speed": 11.32,
+        "deg": 14.772
+    },
+    "clouds": {
+        "all": 78
+    },
+    "dt": 1563904733,
+    "sys": {
+        "message": 0.0053,
+        "country": "RU",
+        "sunrise": 1563829656,
+        "sunset": 1563903500
+    },
+    "timezone": 18000,
+    "id": 1486321,
+    "name": "Yar-Sale",
+    "cod": 200
+}{
+    "coord": {
+        "lon": 77.6,
+        "lat": 60.73
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 64.4,
+        "pressure": 1003,
+        "humidity": 72,
+        "temp_min": 64.4,
+        "temp_max": 64.4
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 6.71,
+        "deg": 360
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1563904733,
+    "sys": {
+        "type": 1,
+        "id": 8986,
+        "message": 0.0086,
+        "country": "RU",
+        "sunrise": 1563919475,
+        "sunset": 1563983235
+    },
+    "timezone": 25200,
+    "id": 1490796,
+    "name": "Strezhevoy",
+    "cod": 200
+}{
+    "coord": {
+        "lon": -90.35,
+        "lat": -0.74
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 73.71,
+        "pressure": 1015,
+        "humidity": 69,
+        "temp_min": 72,
+        "temp_max": 75.2
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 16.11,
+        "deg": 140
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1563904734,
+    "sys": {
+        "type": 1,
+        "id": 8521,
+        "message": 0.0084,
+        "country": "EC",
+        "sunrise": 1563883515,
+        "sunset": 1563927010
+    },
+    "timezone": -21600,
+    "id": 3652764,
+    "name": "Puerto Ayora",
+    "cod": 200
+}{
+    "coord": {
+        "lon": 73.08,
+        "lat": -0.6
+    },
+    "weather": [
+        {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 83.32,
+        "pressure": 1010.01,
+        "humidity": 76,
+        "temp_min": 83.32,
+        "temp_max": 83.32,
+        "sea_level": 1010.01,
+        "grnd_level": 1009.91
+    },
+    "wind": {
+        "speed": 7.61,
+        "deg": 344.828
+    },
+    "rain": {
+        "3h": 0.437
+    },
+    "clouds": {
+        "all": 99
+    },
+    "dt": 1563904734,
+    "sys": {
+        "message": 0.0055,
+        "country": "MV",
+        "sunrise": 1563844279,
+        "sunset": 1563887797
+    },
+    "timezone": 18000,
+    "id": 1282256,
+    "name": "Hithadhoo",
+    "cod": 200
+}{
+    "coord": {
+        "lon": -92.84,
+        "lat": 49.79
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 75.2,
+        "pressure": 1021,
+        "humidity": 57,
+        "temp_min": 75.2,
+        "temp_max": 75.2
+    },
+    "visibility": 14484,
+    "wind": {
+        "speed": 10.29,
+        "deg": 310
+    },
+    "clouds": {
+        "all": 1
+    },
+    "dt": 1563904734,
+    "sys": {
+        "type": 1,
+        "id": 816,
+        "message": 0.0056,
+        "country": "CA",
+        "sunrise": 1563877745,
+        "sunset": 1563933975
+    },
+    "timezone": -18000,
+    "id": 5942913,
+    "name": "Dryden",
+    "cod": 200
+}{
+    "coord": {
+        "lon": 167.69,
+        "lat": -46.13
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 36,
+        "pressure": 1017,
+        "humidity": 98,
+        "temp_min": 36,
+        "temp_max": 36
+    },
+    "wind": {
+        "speed": 9.17,
+        "deg": 36.155
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1563904734,
+    "sys": {
+        "type": 3,
+        "id": 2008959,
+        "message": 0.0079,
+        "country": "NZ",
+        "sunrise": 1563913150,
+        "sunset": 1563946316
+    },
+    "timezone": 43200,
+    "id": 2180815,
+    "name": "Tuatapere",
+    "cod": 200
+}{
+    "coord": {
+        "lon": -0.6,
+        "lat": 45.6
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 99.91,
+        "pressure": 1012,
+        "humidity": 21,
+        "temp_min": 93,
+        "temp_max": 104
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 10.29,
+        "deg": 180
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1563904735,
+    "sys": {
+        "type": 1,
+        "id": 6452,
+        "message": 0.0071,
+        "country": "FR",
+        "sunrise": 1563856517,
+        "sunset": 1563910926
+    },
+    "timezone": 7200,
+    "id": 3026644,
+    "name": "Souillac",
+    "cod": 200
+}{
+    "coord": {
+        "lon": 140.83,
+        "lat": 35.73
+    },
+    "weather": [
+        {
+            "id": 701,
+            "main": "Mist",
+            "description": "mist",
+            "icon": "50n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 72.93,
+        "pressure": 1006,
+        "humidity": 100,
+        "temp_min": 72,
+        "temp_max": 73.4
+    },
+    "visibility": 8000,
+    "wind": {
+        "speed": 3.36,
+        "deg": 110
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1563904735,
+    "sys": {
+        "type": 1,
+        "id": 7955,
+        "message": 0.0068,
+        "country": "JP",
+        "sunrise": 1563910664,
+        "sunset": 1563961695
+    },
+    "timezone": 32400,
+    "id": 2112802,
+    "name": "Hasaki",
+    "cod": 200
+}{
+    "coord": {
+        "lon": 38.73,
+        "lat": 8.96
+    },
+    "weather": [
+        {
+            "id": 501,
+            "main": "Rain",
+            "description": "moderate rain",
+            "icon": "10n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 59.2,
+        "pressure": 1013.64,
+        "humidity": 86,
+        "temp_min": 59.2,
+        "temp_max": 59.2,
+        "sea_level": 1013.64,
+        "grnd_level": 770.76
+    },
+    "wind": {
+        "speed": 3.04,
+        "deg": 35.978
+    },
+    "rain": {
+        "3h": 3.563
+    },
+    "clouds": {
+        "all": 54
+    },
+    "dt": 1563904735,
+    "sys": {
+        "message": 0.0079,
+        "country": "ET",
+        "sunrise": 1563851671,
+        "sunset": 1563896894
+    },
+    "timezone": 10800,
+    "id": 344979,
+    "name": "Lebu",
+    "cod": 200
+}{
+    "coord": {
+        "lon": -149.15,
+        "lat": -17.73
+    },
+    "weather": [
+        {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 77,
+        "pressure": 1014,
+        "humidity": 78,
+        "temp_min": 77,
+        "temp_max": 77
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 14.99,
+        "deg": 60
+    },
+    "clouds": {
+        "all": 20
+    },
+    "dt": 1563904735,
+    "sys": {
+        "type": 1,
+        "id": 7318,
+        "message": 0.0065,
+        "country": "PF",
+        "sunrise": 1563899159,
+        "sunset": 1563939591
+    },
+    "timezone": -36000,
+    "id": 4033557,
+    "name": "Tautira",
+    "cod": 200
+}{
+    "coord": {
+        "lon": -73.75,
+        "lat": 42.65
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 72.84,
+        "pressure": 1012,
+        "humidity": 68,
+        "temp_min": 66.99,
+        "temp_max": 77
+    },
+    "visibility": 16093,
+    "wind": {
+        "speed": 4.7,
+        "deg": 30
+    },
+    "clouds": {
+        "all": 90
+    },
+    "dt": 1563904562,
+    "sys": {
+        "type": 1,
+        "id": 5414,
+        "message": 0.0105,
+        "country": "US",
+        "sunrise": 1563874645,
+        "sunset": 1563927911
+    },
+    "timezone": -14400,
+    "id": 5106834,
+    "name": "Albany",
+    "cod": 200
+}{
+    "cod": "404",
+    "message": "city not found"
+}{
+    "coord": {
+        "lon": -60.23,
+        "lat": -38.31
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 54.16,
+        "pressure": 1025.26,
+        "humidity": 28,
+        "temp_min": 54.16,
+        "temp_max": 54.16,
+        "sea_level": 1025.26,
+        "grnd_level": 1013.43
+    },
+    "wind": {
+        "speed": 10.92,
+        "deg": 242.459
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1563904736,
+    "sys": {
+        "message": 0.0054,
+        "country": "AR",
+        "sunrise": 1563880184,
+        "sunset": 1563915882
+    },
+    "timezone": -10800,
+    "id": 3833859,
+    "name": "Barrow",
+    "cod": 200
+}{
+    "coord": {
+        "lon": -134.97,
+        "lat": -23.12
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 70,
+        "pressure": 1021.55,
+        "humidity": 76,
+        "temp_min": 70,
+        "temp_max": 70,
+        "sea_level": 1021.55,
+        "grnd_level": 1021.53
+    },
+    "wind": {
+        "speed": 16.89,
+        "deg": 80.997
+    },
+    "clouds": {
+        "all": 97
+    },
+    "dt": 1563904736,
+    "sys": {
+        "message": 0.0054,
+        "country": "PF",
+        "sunrise": 1563896290,
+        "sunset": 1563935653
+    },
+    "timezone": -32400,
+    "id": 4030556,
+    "name": "Rikitea",
+    "cod": 200
+}{
+    "coord": {
+        "lon": 138.93,
+        "lat": 34.7
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 77,
+        "pressure": 1005,
+        "humidity": 94,
+        "temp_min": 77,
+        "temp_max": 77
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.36,
+        "deg": 40
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1563904736,
+    "sys": {
+        "type": 1,
+        "id": 8024,
+        "message": 0.0083,
+        "country": "JP",
+        "sunrise": 1563911264,
+        "sunset": 1563962008
+    },
+    "timezone": 32400,
+    "id": 1852357,
+    "name": "Shimoda",
+    "cod": 200
+}{
+    "coord": {
+        "lon": 18.42,
+        "lat": -33.93
+    },
+    "weather": [
+        {
+            "id": 201,
+            "main": "Thunderstorm",
+            "description": "thunderstorm with rain",
+            "icon": "11n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 52.03,
+        "pressure": 1005,
+        "humidity": 66,
+        "temp_min": 48.99,
+        "temp_max": 55.4
+    },
+    "visibility": 3000,
+    "wind": {
+        "speed": 19.46,
+        "deg": 280
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1563904498,
+    "sys": {
+        "type": 1,
+        "id": 1899,
+        "message": 0.006,
+        "country": "ZA",
+        "sunrise": 1563860722,
+        "sunset": 1563897592
+    },
+    "timezone": 7200,
+    "id": 3369157,
+    "name": "Cape Town",
+    "cod": 200
+}
